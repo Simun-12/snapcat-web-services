@@ -1,11 +1,24 @@
 import React from "react";
 
+import NavScroll from "../components/organisms/navScroll";
+import HeroSection from "../components/organisms/heroSection";
+import Gallery from "../components/organisms/gallery";
+
+
 function Home() {
   return (
     <div className="home">
-      <h1>Snapcat</h1>
-      <h2>Snapcat is a simple app to take photos of your catss</h2>
-    </div>
+
+
+        <NavScroll />
+        <HeroSection />
+        <Gallery />
+
+
+      </div>
+
+
+
   );
 }
 
